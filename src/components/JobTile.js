@@ -1,9 +1,9 @@
 import React from 'react'
 
-const JobTile = () => {
+const JobTile = ({job}) => {
   return (
     <div>
-      <h2>Job Tile Component</h2>
+      <h1 className='text-3xl'>{job.company}</h1>
     </div>
   )
 }
