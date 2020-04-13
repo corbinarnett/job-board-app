@@ -25,7 +25,7 @@ const JobTile = ({job}) => {
         </p>
       </div>
       <div className='flex items-center ml-auto'>
-        {jobAttributes ? jobAttributes.map(att => <span className='text-teal-500 bg-teal-100 m-3 p-2 rounded'>{att}</span>) : ''}
+        {jobAttributes ? jobAttributes.map(att => <span className='font-bold text-teal-500 bg-teal-100 m-3 p-2 rounded'>{att}</span>) : ''}
       </div>
     </div>
   )
